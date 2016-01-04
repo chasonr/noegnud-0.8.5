@@ -1,0 +1,875 @@
+commit 7cf7c33744d5f527d360ec9c270a78f7675c6df2
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 19:21:57 2008 +0200
+
+    update patchlevel for pending 0.8.5 release
+
+commit f0ae2a0303354310477d05b077168f571f4b17f1
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 19:21:29 2008 +0200
+
+    Rename makefile for GNU
+
+commit 32741d37cc85ba9b8b8dd978f10e78c1ff7e8673
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 19:21:03 2008 +0200
+
+    correct tar options for linux
+
+commit 57f4994c89a2ad25d1db010f280a18cb51ec2066
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 19:10:16 2008 +0200
+
+    ignore some files
+
+commit a8a9e971e7eddedadbbad44dfd4a63e92574bcbf
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 18:46:16 2008 +0200
+
+    find checksum generating executables rather than hardcoding their locations
+
+commit db0e2d38ce4774807459488e38274b578f2e0a35
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 18:39:00 2008 +0200
+
+    made python changelog util redundant (finally)
+
+commit ea25a1c3a048c720da31c020a96c273a2740852f
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 18:29:17 2008 +0200
+
+    Only use changelog in doc directory
+
+commit bbae271fb8a2edf82745cd3b2a5fa31b08bfb0b4
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 18:20:10 2008 +0200
+
+    use git clone instead of darcs current recursive copy
+
+commit ebcc7feb783d4fd3d13cb86bf2770bfb2f2440c3
+Author: Clive Crous <clive@crous.co.za>
+Date:   Sat Nov 15 18:10:14 2008 +0200
+
+    Remove darcs posthook, darcs deprecated
+
+commit 9761f0b5be143fe7f6ab2b48ec2ff8074a06471e
+Author: Clive Crous <clive@crous.co.za>
+Date:   Fri Jan 26 07:29:52 2007 +0000
+
+    Update slashem-version within noegnud config
+
+commit 4456dfb2758734e65bb686c1dc21b238d96644c5
+Author: Clive Crous <clive@crous.co.za>
+Date:   Fri Jan 26 07:29:35 2007 +0000
+
+    Update to SlashEM-0.0.7E7F3
+
+commit 16d16dbac9c49cc472fec4402691462f38c38fef
+Author: Clive Crous <clive@crous.co.za>
+Date:   Mon Nov 20 14:04:37 2006 +0000
+
+    *oops* I didn't up the version number for the previous release
+
+commit 85fd0c63a9bb37d31088955a6752da3d21e3b38c
+Author: Clive Crous <clive@crous.co.za>
+Date:   Mon Nov 20 14:03:20 2006 +0000
+
+    Only support the latest SlashEM instead of multiple versions
+
+commit d6f5cfe39ef61e17c3b45fbddaa0e65db268c0ac
+Author: Clive Crous <clive@crous.co.za>
+Date:   Mon Nov 20 14:00:35 2006 +0000
+
+    Remove a never-used all-encompasing tile reference. This functionality is supported by the nhtiles project now
+
+commit b7051fcff98aeb4ad4bd8b530d57ac8c970a93d4
+Author: Clive Crous <clive@crous.co.za>
+Date:   Mon Nov 20 13:59:21 2006 +0000
+
+    Only support the latest NetHack instead of multiple versions
+
+commit d4dcb5ed6188b9e51df9b8984c6a8ad1f9fbd99b
+Author: Clive Crous <clive@crous.co.za>
+Date:   Mon Nov 20 13:57:42 2006 +0000
+
+    Remove a last remaining LittleHack reference
+
+commit d557dcb05e25e0e6781a5fe2ca23d8ba6cfec3e4
+Author: Clive Crous <clive@crous.co.za>
+Date:   Mon Nov 20 13:56:55 2006 +0000
+
+    Remove some remaining DeeT related code
+
+commit c183a14b4c667c7385040c9106f38e30629037ea
+Author: Clive Crous <clive@crous.co.za>
+Date:   Wed Sep 20 11:58:58 2006 +0000
+
+    linux (unlike FreeBSD) does not require -lgnuregex as linux *is* GNU
+
+commit 0f749925e33d8090847707d336b9ed69f5e2e164
+Author: Clive Crous <clive@crous.co.za>
+Date:   Wed Sep 20 11:58:30 2006 +0000
+
+    somehow an errand quote got into the source
+
+commit dcd1c9e5b7a5a05de6f1a31535eb0aa3527de913
+Author: Clive Crous <clive@crous.co.za>
+Date:   Wed Sep 20 11:58:13 2006 +0000
+
+    I no longer use FreeBSD so remove FreeBSD's SDL innate brokenness
+
+commit 0300cda5ae9f8de0690293bcec94897934721c52
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:34 2006 +0000
+
+    [darcs @ cleanup excess whitespace from doc index]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-03-10 21:11:18+00:00
+
+commit 4535e5c940b9befafed1399b7cea863d733e8a38
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:29 2006 +0000
+
+    [darcs @ add todo and an index to docs]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-03-10 21:10:27+00:00
+
+commit 7dc2682217919921be20ace3369014854b96e542
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:23 2006 +0000
+
+    [darcs @ sorry mucknert :(]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-03-10 21:09:07+00:00
+
+commit 2dfdd84caeb1bcfd278ffb786fc3b6edf13453dc
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:18 2006 +0000
+
+    [darcs @ correct noegnud name within config]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-03-10 21:07:47+00:00
+
+commit 3ffeac05ef946403f64fdd4d26cdabb9b61c4c22
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:13 2006 +0000
+
+    [darcs @ [win32][slashem] fix misnamed installer file]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 22:34:35+00:00
+
+commit ce3e5949c05dc97098987bc061353425f104f6b1
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:08 2006 +0000
+
+    [darcs @ [unix] switch off debug flags by default]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 22:17:32+00:00
+
+commit 9f41457d6d56341ccc8ea6064ec75f1c7af98419
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:11:02 2006 +0000
+
+    [darcs @ [win32] tweak compiler flags for release]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:56:51+00:00
+
+commit de88ad994a9a7a42f4b2f07f4dbaa51df7bb4b5c
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:57 2006 +0000
+
+    [darcs @ [win32] add rc source files for icon integration]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:44:41+00:00
+
+commit 4554311c36a3cfc6e4e42bdc9e67fe4dcbd9b021
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:50 2006 +0000
+
+    [darcs @ [win32] append noegnud path to general include paths for implicit versioning]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:28:52+00:00
+
+commit 1acc32e7062e84a93f08f70428ee3dec1e3d9e66
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:45 2006 +0000
+
+    [darcs @ remove unused cflags from slashem makefile.utl]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:37:04+00:00
+
+commit 29bb6fa0cc72554668a15008c28ecaf82dafd9bf
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:40 2006 +0000
+
+    [darcs @ remove a redundant symlink creation]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:36:41+00:00
+
+commit 9899431eb3e58489185bef8553e38ed0d0b048a7
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:35 2006 +0000
+
+    [darcs @ add data to variant tarballs]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:36:08+00:00
+
+commit 0da9f4b1d3d103db6a30674e76d142ab7e1c9f4a
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:30 2006 +0000
+
+    [darcs @ implicit version numbering]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 21:35:08+00:00
+
+commit 03b0e52ab80b0981120d6072f7252436c3f2bc1d
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:24 2006 +0000
+
+    [darcs @ remove explicit version enumeration]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 16:43:18+00:00
+
+commit 208255b4649820c54dfa262935305573cdadc79c
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:18 2006 +0000
+
+    [darcs @ [win32] executable names and icons]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 15:16:17+00:00
+
+commit f8b3ee88d10a90b9b40d56d48a55398e2f3f9c5b
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:13 2006 +0000
+
+    [darcs @ [slashem] update Guidebook.txt]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 15:17:11+00:00
+
+commit ecc13f11d973cf8e3ee831698be4276eec163c10
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:10:06 2006 +0000
+
+    [darcs @ [win32] installer creation scripts]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 14:45:47+00:00
+
+commit 2299f34da8556d543430a9fa7d78598e868c1d7a
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:59 2006 +0000
+
+    [darcs @ [slashem][win32] correct binary build location]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 14:41:34+00:00
+
+commit 45b8add7c99e281062feb258af13d1a675014f78
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:54 2006 +0000
+
+    [darcs @ [win32][slashem] makefile additions]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 12:53:15+00:00
+
+commit bf30ca7a876c2d6340f6eec5fd0b4d2d6f4cb4ee
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:48 2006 +0000
+
+    [darcs @ move slashem binary to build area]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 12:52:44+00:00
+
+commit 34aa80b18970a684770c5a4190e7d1c7a532b5c2
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:43 2006 +0000
+
+    [darcs @ UNDO: [slashem] remove Guidebook.txt from the repo, it's generated at compile time]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:06:20+00:00
+
+commit 2753460a4eb072ac5432a89ba0770a1a6260f9cf
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:37 2006 +0000
+
+    [darcs @ [slashem] setup regex type to use within global.h]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 12:17:56+00:00
+
+commit e6cbd1f16b746aa714a15146cd9a8bc0db29ca11
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:32 2006 +0000
+
+    [darcs @ [slashem] only define DLB if not already defined. This silences many warning messages]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 12:17:11+00:00
+
+commit ff2f15f312fdd01943228dc400b64e6aff550fa8
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:27 2006 +0000
+
+    [darcs @ [slashem] correct noegnud directory structure reference in win32 batch]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 12:16:15+00:00
+
+commit d5bf4e3723ef8661860dc9582e23ef75f401f9ce
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:21 2006 +0000
+
+    [darcs @ add doc/Makefile as migrated from vultures]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 11:43:59+00:00
+
+commit 162c420cd596c6abad5b05e5c3d158f4b26633c0
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:16 2006 +0000
+
+    [darcs @ variant typing dynamic within meta makefile]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 10:30:09+00:00
+
+commit 2d0e98a34eac460ee244a0095db0c0fa3dee7a69
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:11 2006 +0000
+
+    [darcs @ migrate changelog script from vultures]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:59:20+00:00
+
+commit fa727eecee2284cb6a5fb5d81fce8e141fd2c646
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:06 2006 +0000
+
+    [darcs @ add doc and dist directories]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:54:50+00:00
+
+commit 5bf609c58a66e58c09dab759459b8d444d184be8
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:09:01 2006 +0000
+
+    [darcs @ set correct variant reference file for slashem]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:33:08+00:00
+
+commit b870963d8251f8cd3a8769921f844bfc556c9f04
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:56 2006 +0000
+
+    [darcs @ migrate vulture's meta makefile into noegnud]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:36:58+00:00
+
+commit a56c0204d69c12e37e69d4418e64c52369db5a4c
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:50 2006 +0000
+
+    [darcs @ [slashem] remove Guidebook.txt from the repo, it's generated at compile time]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:06:20+00:00
+
+commit 16fdeb05ff7d244f37bbb543a3e5f8cae4286db6
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:45 2006 +0000
+
+    [darcs @ [slashem] update game-varian-version within makefiles]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:04:12+00:00
+
+commit cff91c5fb616aff451213ea2469ac7d28c49fe32
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:40 2006 +0000
+
+    [darcs @ [slashem] build noegnud only, skip tty inclusion]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:03:44+00:00
+
+commit 788f0facd6c12f8d732f7cff93af78e954518fbc
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:35 2006 +0000
+
+    [darcs @ [slashem] noegnud per-file compilation descriptors got lost somehow]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:03:01+00:00
+
+commit 38a97b3411ca5fd136df123320e738b26cfaac8a
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:30 2006 +0000
+
+    [darcs @ [slashem] reworked compilation flags]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:02:16+00:00
+
+commit 18420d469e28aa27ea4e6e48562889092729ebc3
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:25 2006 +0000
+
+    [darcs @ [slashem] use system default compiler instead of only gcc]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:01:17+00:00
+
+commit c0ffd20fe738d769cad268e18ce4358c70584ea3
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:20 2006 +0000
+
+    [darcs @ add latest slashem to noegnud_config.h]
+    Urrgh :/ this entire section needs to
+    be reworked. I really dont care anymore
+    about redundant versions.
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 09:00:22+00:00
+
+commit 0508d7f46f56c3be4c93d04e36bd7d7c44938b34
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:15 2006 +0000
+
+    [darcs @ ensure data propogation on build]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 08:59:40+00:00
+
+commit e86199a292dc8b72ab63df374d2642c5c0e57105
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:10 2006 +0000
+
+    [darcs @ [nethack] remove some redundant build flags]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 08:56:44+00:00
+
+commit 41246c46a0b4ecfcc828b5daf389a156099b22b9
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:05 2006 +0000
+
+    [darcs @ slashem and nethack to cater for new noegnud directory structure]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 08:56:07+00:00
+
+commit f28186aa36748eccca6486b47faa51662045fb2c
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:08:00 2006 +0000
+
+    [darcs @ [slashem] add posix regex support to sound.c]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 08:32:22+00:00
+
+commit d6f81d9374fa5373b615a524e8af35bcb9275676
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:07:54 2006 +0000
+
+    [darcs @ [win32] build requires dlls too]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 07:44:44+00:00
+
+commit 2e1d116f039c3b17353b9b787f36da5c2e9e9ffa
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:07:49 2006 +0000
+
+    [darcs @ [win32] cater for new noegnud directory structure]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 07:40:08+00:00
+
+commit b2ab2d59741c326c40fd050994045a1680ea0443
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:07:40 2006 +0000
+
+    [darcs @ rearrange noegnud directory structure to be less redundant]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 07:38:05+00:00
+
+commit 54f0992343cb66c21f61b52c20363a49f630bb4f
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 22:02:49 2006 +0000
+
+    [darcs @ [win32] build automation]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-20 07:35:38+00:00
+
+commit 20f776c8d1afa81cdb4d8179172c295f0c42616b
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:55:06 2006 +0000
+
+    [darcs @ add helper scripts for compiling nethack and slashem (slashem wont work until it's own makefiles are updated too)]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-10 23:14:40+00:00
+
+commit 92ebabc7094edd8caf92293c1b0ebf0d7db79096
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:55:01 2006 +0000
+
+    [darcs @ fix win32 makefile.gcc (messy, but working now)]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-10 23:14:08+00:00
+
+commit 82c99d7bc458bd66911e49ecc867dbf15e5a4f0a
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:54:54 2006 +0000
+
+    [darcs @ check if DLB is already defined, prevents irritating compile warnings]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-10 23:13:24+00:00
+
+commit 142c0add2cc8ba6e87c7babbe78af06f06a09888
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:54:49 2006 +0000
+
+    [darcs @ add required win32 dll binaries]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2006-02-10 23:12:50+00:00
+
+commit d60892c7283e75473111763b3503c80829bcdfcc
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:54:37 2006 +0000
+
+    [darcs @ upgrade slashem to slashem-0.0.7E7F2]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-12-14 13:42:22+00:00
+
+commit 27abceb54b915f6d315a91264654cfbae1e161a8
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:54:30 2006 +0000
+
+    [darcs @ update noegnud utils for it's new build location]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-11-12 14:51:29+00:00
+
+commit e3f6a63c70e8c86637f331c71260a586864e9033
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:54:24 2006 +0000
+
+    [darcs @ remove redundant build doc]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-11-03 20:52:12+00:00
+
+commit 255344b8e08e77b7c054a268b2b98763bdeb8440
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:54:19 2006 +0000
+
+    [darcs @ remove artifacts usage]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-11-03 20:47:52+00:00
+
+commit 12949e39424afe2614599f3f80887c34a5736d53
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:47 2006 +0000
+
+    [darcs @ some fixes found by Werror]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 23:49:56+00:00
+
+commit d07cfa15b2d0f31c4bd2eb51d981ce07edd2ff35
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:42 2006 +0000
+
+    [darcs @ cflags to ensure code purity]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 23:49:29+00:00
+
+commit 3ee6239840efa6751c19984c879d9bc04f2cbf97
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:36 2006 +0000
+
+    [darcs @ copy wooden theme to default]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 23:17:29+00:00
+
+commit aa31fff52f8b150593c72e34a0f503235a49347e
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:30 2006 +0000
+
+    [darcs @ cleaner building]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 23:06:11+00:00
+
+commit a5064e47badd3e8535a52d6fde8d980880daf328
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:25 2006 +0000
+
+    [darcs @ more POSIX_REGEX]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 23:05:04+00:00
+
+commit 9033d6e2cc1e51654ff437b2e17740418d560f24
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:19 2006 +0000
+
+    [darcs @ version numbering]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 22:42:43+00:00
+
+commit e534e39ab1325b8f32fabf2a15e5ebee04e2db60
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:44:14 2006 +0000
+
+    [darcs @ remove redundant prehistoric slashem fixes]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 22:34:16+00:00
+
+commit 4892b8eff106afaee844f7e714373d6a6e7cf86e
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:38:23 2006 +0000
+
+    [darcs @ new primary Makefile]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 22:30:59+00:00
+
+commit c3df86a51dba8743e9fc7c7029f08bd8708d4cdb
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:38:18 2006 +0000
+
+    [darcs @ Support for POSIX regex aswell]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 11:05:31+00:00
+
+commit bcdd3aefc0c873c7960b9a355105275255f43894
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:38:11 2006 +0000
+
+    [darcs @ remove redundant variants, diffs and build system]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:42:33+00:00
+
+commit bcbd986a10526a216a32a1ef890042f60152d5cc
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:35:01 2006 +0000
+
+    [darcs @ correct include paths]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:38:23+00:00
+
+commit 923d2c403e41cdbea94b55c52352b546e1f0e894
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:34:55 2006 +0000
+
+    [darcs @ remove redundant file]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:37:43+00:00
+
+commit 5fa0de75c395322282e769aace4483c4d59ebb05
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:34:47 2006 +0000
+
+    [darcs @ move noegnud source to it's new location]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:36:02+00:00
+
+commit 98f4bf6b53dbe2757a1db2fcfa724591995ab55b
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:33:49 2006 +0000
+
+    [darcs @ import slashem diff for noegnud]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:12:56+00:00
+
+commit 5882d5e692bc2c204d61a012e660447a7c0e50d5
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:33:24 2006 +0000
+
+    [darcs @ Add slashem 0.0.7e7f1 source tree]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:08:50+00:00
+
+commit 15cb80cae6325e6d88074024943d6b8f7805715e
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:31:43 2006 +0000
+
+    [darcs @ import nethack diff for noegnud]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 09:02:44+00:00
+
+commit b11dc7a3388c9443e38fa7e3df32b70df079c905
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:31:21 2006 +0000
+
+    [darcs @ Add nethack 3.4.3 source tree]
+    
+    Original author: Clive Crous <clive@darkarts.co.za>
+    Date: 2005-07-16 08:38:05+00:00
+
+commit 56e7a88117d7d13c1232b2027f84f7211b0caff6
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:30:17 2006 +0000
+
+    [darcs @ add artifact #2]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-05-16 16:53:10+00:00
+
+commit 4b9a9254761a33801758e347ce67d8739b2ba1e9
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:30:05 2006 +0000
+
+    [darcs @ add artifact #1]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-05-16 16:51:56+00:00
+
+commit d4493d0f3003eefcf097bf32822116441665c78b
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:29:53 2006 +0000
+
+    [darcs @ default artifacts command to list]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-05-16 16:50:04+00:00
+
+commit a7269ea13827053024c5869de7a0b355d2846432
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:29:42 2006 +0000
+
+    [darcs @ initialise artifacts]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-05-16 16:49:36+00:00
+
+commit f4dcb08e6e55548cd8e24e5c3487976f33983b1c
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:29:30 2006 +0000
+
+    [darcs @ taskjuggler nolonger used]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-05-16 16:48:44+00:00
+
+commit 83e5327dc0abda8159fbf4ad0a0f228c044e12e4
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:29:14 2006 +0000
+
+    [darcs @ archive changes.txt]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-20 00:26:46+00:00
+
+commit 7be9c1967618ab6159aacfa2d32dcdd2e09a665b
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:29:01 2006 +0000
+
+    [darcs @ task updates]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-20 00:24:08+00:00
+
+commit b1bc62e4a285879375a49ef3bfba9c474155fb2f
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:28:49 2006 +0000
+
+    [darcs @ fixes bug b_1]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-19 18:18:31+00:00
+
+commit 721e0f91fdad2fb8b131ae0809c56fa797e67c0a
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:28:37 2006 +0000
+
+    [darcs @ devdocs makefile]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-19 16:16:23+00:00
+
+commit 838b9b1664aa8bd99568b617b5099928b6272317
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:28:26 2006 +0000
+
+    [darcs @ devdocs in ./devdocs]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-19 16:05:30+00:00
+
+commit 719143adc2e8f7b68daa009d5e84f0b47aedfa9a
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:28:12 2006 +0000
+
+    [darcs @ update credits for 0.8.4]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-19 16:02:55+00:00
+
+commit 28ab559d1f68b3c9ef76234442b1c8b06316f965
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:28:00 2006 +0000
+
+    [darcs @ move 'changes&todo' into taskjuggler format]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-19 16:01:08+00:00
+
+commit a3d7d91cc44bed4623e935c3ef8dff12ed3baae9
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:25:31 2006 +0000
+
+    [darcs @ import 0.8.3]
+    
+    Original author: clive@darkarts.co.za
+    Date: 2005-03-19 12:56:00+00:00
+
+commit 462e4bf87c51dd0f9df74c48105f89cfc650c20f
+Author: Clive Crous <clive@crous.co.za>
+Date:   Thu Aug 24 21:20:50 2006 +0000
+
+    Initial directory stucture
