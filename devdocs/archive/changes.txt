@@ -1,0 +1,168 @@
+* NOTE: since 0.8.4 changes are kept within noegnud.tjp
+
+todo/change list for noegnud
+
+-- ?.?.? -- : current internal version number used
+nn          : change number
+    (*)     : complete
+    ( )     : still to be done
+
+- History ---------------------------------------------------------------------
+
+-- 0.7.1 --
+01  (*) [win32] fix menu selection bug (scancode lost)
+02  (*) fixed gui offset bug
+03  (*) [win32] detect & use username
+    (*) adjusted some startup options
+04  (*) injected slashem-0.0.7e2 support
+05  (*) modified source tree structure
+06  (*) changed data directory from "noegnud_data" to "data"
+07  (*) single configuration file for all variants of noegnud
+08  (*) togglable individual cutout modes
+09  (*) mouse over widget, now kills "hover-mouse"
+    (*) left mouse click on minimap
+10  (*) fix "blackening" which appears cut out, lifted & rotated
+11  (*) added variant-specific capability to config file
+12  (*) fullscreen mode toggleable from ingame
+13  (*) store last console position
+14  (*) left click on "blank" 3d area works & speed increase in "selection"
+15  (*) fix fps calculation
+16  (*) char size brought in line with tile size & speed increase in
+        "selection"
+17  (*) menu "page commands"
+-- 0.8.- --
+01  (*) fullscreen toggle saved in options & variant build in options (typo)
+        aswell
+02  (*) minimap mustn't react when "invisible"
+    (*) wall translucency in cutout mode
+03  (*) redraw "dark area"
+04  (*) move config file into ~
+    (*) fix character reload failure (font cache)
+    (*) add support for secondary data tree within ~
+05  (*) console shouldn't drag down after "end"
+    (*) "noeGNUd" button should work @ game startup
+    (*) lighting on objects/monsters turned off
+    (*) translucent-cutout menu toggle (finer tuning inside options file)
+    (*) auto-centre toggleable (none or mouse or player centre modes)
+    (*) reorder & cleanup noeGNUd menu
+    (*) 3d mouse menu toggle
+    (*) make dungeon features also translucent
+    (*) dont draw unneeded floortiles, eg under walls.
+    (*) adjust "cheap" lighting mode to better values.
+06  (*) show tileset choice dialog on tileset-not-found
+    (*) monster/object "auto-face" togglable
+    (*) memory usage cleanup
+    (*) toggle fps display via menu
+    (*) variant options & help from menu
+    (*) togglable "half-width" mode for tiles
+    (*) query function style into menu
+    (*) mipmapping togglable
+07  (*)	[debug-mode] correct internal_realloc_trace in memory leak checking
+    (*) find and remove memory leaks
+    (*) remove the nasty unicode & ctrl-z "suspend"
+    (*) cleanup build
+08  (*) PICK_ANY crash on  nothing selected-return pressed
+    (*) asking price of one object in shop
+    (*) timestamp console
+    (*) text inter-char colourization
+    (*) minimap respond only when "active window"
+    (*) "green" highlight on translucent items
+    (*) wall "half height" menu toggle
+09  (*) some windows not being destroyed
+    (*) revamp internal map storage, store "high" / "low" etc as calculated in
+        print_glyph
+    (*) translucent "pits" to be ignored in translucent mode
+    (*) destroying console early causes numerous strange side effects
+10  (*) space to work as "enter" in pick_any menus
+    (*) ctrl&shift etc rotation should work with right_ctrl_shift etc
+    (*) config cleanup
+### data compatibility with 0.7.1 broken from here on
+    (*) tombstone leaks memory
+    (*) credit screen optional in config file
+    (*) mouse cursor "light" toggle
+    (*) 3D view togglable
+    (*) mouse wheel scroll speed editble via config
+    (*) fix timing/speed issues for rotation/strobe & fps
+    (*) when 3d mouse cursor is disabled, curser over minimap should still work
+    (*) console timestamp toggleable
+    (*) pageup,pagedown,home,end for menu paging commmands
+    (*) rotation/zooming etc relative or absolute, togglable
+11  (*) check system's max texture size for dynamic "block" size instead of
+	hard-coded 64x64
+    (*) string colourisation routines revamp (single ctrl char & global header)
+    (*) coloured menu items (like Pasi Kallinen's menucolour patch)
+12  (*) fix variant references
+    (*) basic variant builtin-sound support
+13  (*) tombstone text colour settings
+    (*) optional inline extended command '#' instead of menu
+14  (*) function_yn crashes on game startup if "unwindowed"
+    (*) optional text tombstone ala-tty UI
+    (*) raised walls "fragment", sometimes not drawn sometimes drawn in wrong
+	places ...
+    (*) new gui windowing system
+15  (*) text input widget needs gui themeability
+    (*) fix messy gui make (.14 doesn't build)
+    (*) tombstone theme kills tomb image
+16  (*) [WIN32] win_inven crashes, not nulled at startup & mkdir format differs
+    (*) include "seenv" in "ishigh"/"islow"
+    (*) unexplored dungeon area & seen corridor
+    (*) "<"&">" menu paging for all windows containing scrollbars
+    (*) sound init = optional
+    (*) positionbar
+17  (*) selection renderin g on event queue end only
+    (*) nulldraw routine
+    (*) cavern highlighting (mouse)
+### beta testing begins
+18  (*) allow individual mouse selection of non-uniquely marked items when many
+        items are in a bag/inventory
+    (*) more detail in compilation doc on resulting files
+    (*) "take screenshot" dialog visible in screenshots
+    (*) gui titlebar widget
+    (*) windows with titlebars remember their locations
+19  (*) non-cutout mode dark(unlit) areas look like walls
+    (*) switch off caverns for isometric 3d mouse cursor
+    (*) unexplored area togglable & cutout togglable
+    (*) new credits screen
+    (*) cavern walls (cutout raised) sometimes display incorrect texture
+    (*) mouse select of an item in (pick_one) doesn't trigger an "\n"
+    (*) no "ok" for perm_inven
+    (*) clicking within a window brings focus to it
+    (*) more customized character selection
+    (*) function questions need titlebars
+    (*) some walls sometimes display as flat (dawrf + pickaxe), before they've
+        been "seenv" as flat
+    (*) add build support for DeeT's "linuxfont"
+---0.8.0---
+    (*) keypad enter = enter
+    (*) 'space' is invalid menu char _ALWAYS_
+    (*) rgba for individual windows, like positions
+    (*) inventory scroller offset reset on window hide
+    (*) maximum texture size cap as an option
+    (*) minimap shortcut key (TAB)
+    (*) shortcut key to hide entire gui temporarily
+    (*) fix lighting glitch on mouse cursor light
+    (*) raise dungeon light levels slightly
+    (*) texture loading glitch on systems with max texturesize of 1024x1024
+    (*) make "record game" query optional and defaults it to off
+    (*) "black" draw in unexplored areas when monsters move, leaving "trails"
+    (*) opening credits screen, killed "Options" button
+    (*) a few other small changes
+---0.8.1---
+    (*) nethack-3.4.2 support
+    (*) single choice options in character generation chosen automatically
+    (*) char selection rolenames dont only use male rolenames anymore
+        (eg caveWOman)
+    (*) nethack's 50 milisecond "delay" (eg for showing moving zaps and throws)
+        timing can be adjusted in config
+    (*) deet & littlehack patches updated to use nh 3.4.2
+    (*) variants can reference a different variant tileset-reference to the one
+        they are named as
+---0.8.2---
+    (*) nethack-3.4.3 support
+    (*) slashem-0.0.7e5 support
+    (*) slashem-0.0.7e6 support
+    (*) bugfix: [ 865819 ] ugly crash on "tile not found"
+    (*) made "nethack" the default tileset, not absurd
+    (*) slashem-0.0.7e6f2 support
+    (*) added "traditional" key/menuitem binding mode, and made it the default
+---0.8.3---

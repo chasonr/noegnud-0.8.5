@@ -1,0 +1,10 @@
+segment=wooden/button/tl.png,-1,-1,-1,-1,0,0,-1,-1,0,0,0,0,0,0
+segment=wooden/button/t.png,-1,-1,0,-1,0,0,1,-1,0,0,0,0,1,0
+segment=wooden/button/tr.png,1,-1,0,-1,0,0,1,-1,1,0,0,0,0,0
+segment=wooden/button/l.png,-1,-1,-1,0,0,0,-1,1,0,0,0,0,0,1
+segment=wooden/button/m.png,-1,-1,0,0,0,0,1,1,0,0,0,0,1,1
+segment=wooden/button/r.png,1,-1,0,0,0,0,1,1,1,0,0,0,0,1
+segment=wooden/button/bl.png,-1,1,-1,0,0,0,-1,1,0,1,0,0,0,0
+segment=wooden/button/b.png,-1,1,0,0,0,0,1,1,0,1,0,0,1,0
+segment=wooden/button/br.png,1,1,0,0,0,0,1,1,1,1,0,0,0,0
+

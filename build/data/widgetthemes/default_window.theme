@@ -1,0 +1,10 @@
+segment=wooden/default/tl.png,-1,-1,-1,-1,6,6,-1,-1,0,0,6,6,0,0
+segment=wooden/default/t.png,-1,-1,0,-1,6,0,1,-1,0,0,-6,0,1,0
+segment=wooden/default/tr.png,1,-1,0,-1,-6,6,1,-1,1,0,-6,6,0,0
+segment=wooden/default/l.png,-1,-1,-1,0,0,6,-1,1,0,0,0,-6,0,1
+segment=wooden/default/m.png,-1,-1,0,0,0,0,1,1,0,0,0,0,1,1
+segment=wooden/default/r.png,1,-1,0,0,0,6,1,1,1,0,0,-6,0,1
+segment=wooden/default/bl.png,-1,1,-1,0,6,-6,-1,1,0,1,6,-6,0,0
+segment=wooden/default/b.png,-1,1,0,0,6,0,1,1,0,1,-6,0,1,0
+segment=wooden/default/br.png,1,1,0,0,-6,-6,1,1,1,1,-6,-6,0,0
+

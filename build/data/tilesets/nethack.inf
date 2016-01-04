@@ -1,0 +1,11 @@
+; Name:		Default nethack tileset
+; Version:	1.0
+; Author:	the DevTeam
+; Email:	
+; URL:		http://www.nethack.org/
+;
+; $ manipulated for noegnud by Clive Crous
+
+location=nethack
+width=16
+height=16

@@ -1,0 +1,10 @@
+segment=wooden/minimap/tl.png,-1,-1,-1,-1,6,6,-1,-1,0,0,6,6,0,0
+segment=wooden/minimap/t.png,-1,-1,0,-1,6,0,1,-1,0,0,-6,0,1,0
+segment=wooden/minimap/tr.png,1,-1,0,-1,-6,6,1,-1,1,0,-6,6,0,0
+segment=wooden/minimap/l.png,-1,-1,-1,0,0,6,-1,1,0,0,0,-6,0,1
+segment=wooden/minimap/m.png,-1,-1,0,0,0,0,1,1,0,0,0,0,1,1
+segment=wooden/minimap/r.png,1,-1,0,0,0,6,1,1,1,0,0,-6,0,1
+segment=wooden/minimap/bl.png,-1,1,-1,0,6,-6,-1,1,0,1,6,-6,0,0
+segment=wooden/minimap/b.png,-1,1,0,0,6,0,1,1,0,1,-6,0,1,0
+segment=wooden/minimap/br.png,1,1,0,0,-6,-6,1,1,1,1,-6,-6,0,0
+

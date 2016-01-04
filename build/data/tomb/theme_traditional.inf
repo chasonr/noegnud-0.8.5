@@ -1,0 +1,13 @@
+gui.window.tombstone.image=tomb/tomb_traditional.png
+gui.window.tombstone.font=tomb/font_engrave_8x16
+gui.window.tombstone.width=16
+gui.window.tombstone.name.x=310
+gui.window.tombstone.name.y=140
+gui.window.tombstone.year.x=310
+gui.window.tombstone.year.y=170
+gui.window.tombstone.gold.x=310
+gui.window.tombstone.gold.y=200
+gui.window.tombstone.how.x=310
+gui.window.tombstone.how.y=230
+gui.window.tombstone.description.x=100
+gui.window.tombstone.description.y=260

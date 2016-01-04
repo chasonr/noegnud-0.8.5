@@ -1,0 +1,36 @@
+                 noegnud
+
+        Clive Crous  Project leader
+          "Entro-P"  Design
+                     Programming
+                     Graphics
+
+      Pasi Kallinen  NetHack Consultant
+            "paxed"  Play Testing
+
+  Christian Schmidt  Ideas & Help
+         "Mucknert"  Play Testing
+
+          Kim Mobey  Concept Testing
+             "germ"  Play Testing
+
+
+
+   Thanks for past contributions from:
+
+          John Shaw  Graphics
+                     Music
+                     Sound Effects
+
+      Florian Gross  Previous Website
+             "flgr"
+
+
+
+Thanks go to all the people of #linuxgames
+& #nethack on irc.freenode.net for
+critisisms, suggestions and support.
+
+*NOTE: individual variants / tilesets /
+       sound-themes all have their own
+       credit listings.

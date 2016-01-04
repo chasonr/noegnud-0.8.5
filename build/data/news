@@ -1,0 +1,21 @@
+noeGNUd v0.8
+------------
+you got this from http://noegnud.sourceforge.net/
+
+Hello and welcome :)
+
+
+KEYS:
+==================
+    static
+<alt>   + mouse = rotation
+    or middle mouse button
+<ctrl>  + mouse = zoom
+    or mouse scrolly wheel
+<shift> + mouse = translation
+
+    dynamic defaults
+<f10> menu
+<f5>  toggle GUI
+<tab> toggle minimap
+

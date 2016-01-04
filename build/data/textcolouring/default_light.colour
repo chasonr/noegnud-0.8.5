@@ -1,0 +1,53 @@
+;Jul 15 15:56:09 <paxed>	# alternate weapon and worn armor
+;Jul 15 15:56:10 <paxed>	#MENUCOLOR=" (alternate weapon.*"=cyan
+;Jul 15 15:56:10 <paxed>	#MENUCOLOR=" (being worn)"       =cyan
+;Jul 15 15:56:10 <paxed>	# blessed items
+;Jul 15 15:56:10 <paxed>	MENUCOLOR=" blessed "=green
+;Jul 15 15:56:14 <paxed>	MENUCOLOR=" holy "   =green
+;Jul 15 15:56:15 <paxed>	# cursed items
+;Jul 15 15:56:15 <paxed>	MENUCOLOR=" cursed "=red
+;Jul 15 15:56:16 <paxed>	MENUCOLOR=" unholy "=red
+;Jul 15 15:56:18 <paxed>	# items in use
+;Jul 15 15:56:22 <paxed>	#MENUCOLOR=" (weapon in hand.?)"=brown
+;Jul 15 15:56:23 <paxed>	#MENUCOLOR=" (wielded.*)"       =brown
+;Jul 15 15:56:24 <paxed>	#MENUCOLOR=" (in quiver)"       =brown
+;Jul 15 15:56:26 <paxed>	# cursed items in use
+;Jul 15 15:56:30 <paxed>	#MENUCOLOR=" cursed .* (weapon in hand.?)"=orange
+;Jul 15 15:56:31 <paxed>	#MENUCOLOR=" cursed .* (wielded.*)"       =orange
+;Jul 15 15:56:45 <paxed>	#MENUCOLOR=" cursed .* (being worn)"      =orange
+;Jul 15 15:56:49 <paxed>	#MENUCOLOR=" (unpaid, .* zorkmids)"=magenta
+
+[ ][hH]ungry=1.0,0.0,0.0
+[ ][wW]eak=1.0,0.0,0.0
+
+[ ]blessed=0.0,0.65,0.0
+[ ]holy=0.0,0.65,0.0
+[ ]cursed=0.65,0.0,0.0
+[ ]unholy=0.65,0.0,0.0
+[ ]uncursed=0.5,0.5,0.5
+
+[ ][+][0-9]+=0.0,0.65,0.0
+[ ][-][0-9]+=0.65,0.0,0.0
+
+[ ][(]alternate[ ]weapon.*=0.0,0.65,0.65
+[ ][(]being[ ]worn[)]=0.0,0.65,0.65
+[(]weapon[ ]in[ ]hand.?[)]=0.65,0.45,0.0
+[(]wielded.*)=0.65,0.45,0.0
+[(]in[ ]quiver)=0.65,0.45,0.0
+[(]unpaid[,][ ].* zorkmids[)]=0.65,0.0,0.65
+
+[(][0-9]+[:][0-9]+[)]=0.1,0.1,1.0
+
+
+[[]true[]]=0.0,0.65,0.0
+[[]false[]]=0.65,0.0,0.0
+
+[[]on[]]=0.0,0.65,0.0
+[[]off[]]=0.65,0.0,0.0
+
+; a bit too colourfull for me :D
+;[Hh][Pp][:][0-9]+[(][0-9]+[)]=1.0,0.0,0.0
+;[Pp][Ww][:][0-9]+[(][0-9]+[)]=0.0,0.0,1.0
+;[Aa][Cc][:][0-9]+=1.0,1.0,1.0
+;[$][:][0-9]+=1.0,0.8,0.0
+

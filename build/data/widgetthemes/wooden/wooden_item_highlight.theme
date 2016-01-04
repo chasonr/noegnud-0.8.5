@@ -1,0 +1,10 @@
+segment=wooden/shades/light.png,-1,-1,0,0,0,0,-1,-1,0,0,1,1,0,0
+segment=wooden/shades/light.png,-1,-1,0,0,1,0,1,-1,0,0,0,1,1,0
+segment=wooden/shades/light.png,1,-1,0,0,-1,0,1,-1,0,0,0,1,0,0
+segment=wooden/shades/light.png,-1,-1,0,0,0,1,-1,1,0,0,1,0,0,1
+segment=wooden/shades/semilight.png,-1,-1,0,0,1,1,1,1,0,0,-1,-1,0,0
+segment=wooden/shades/dark.png,1,-1,0,0,-1,0,1,1,0,0,0,-1,0,1
+segment=wooden/shades/dark.png,-1,1,0,0,0,-1,-1,1,0,0,1,0,0,0
+segment=wooden/shades/dark.png,-1,1,0,0,0,-1,1,1,0,0,-1,0,1,0
+segment=wooden/shades/dark.png,1,1,0,0,-1,-1,1,1,0,0,0,0,0,0
+

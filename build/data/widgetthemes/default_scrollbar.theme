@@ -1,0 +1,10 @@
+segment=wooden/scrollbar/border.png,-1,-1,-1,-1,0,0,-1,-1,0,0,0,0,0,0
+segment=wooden/scrollbar/border.png,-1,-1,0,-1,0,0,1,-1,0,0,0,0,1,0
+segment=wooden/scrollbar/border.png,1,-1,0,-1,0,0,1,-1,1,0,0,0,0,0
+segment=wooden/scrollbar/border.png,-1,-1,-1,0,0,0,-1,1,0,0,0,0,0,1
+segment=wooden/scrollbar/m.png,-1,-1,0,0,0,0,1,1,0,0,0,0,1,1
+segment=wooden/scrollbar/border.png,1,-1,0,0,0,0,1,1,1,0,0,0,0,1
+segment=wooden/scrollbar/border.png,-1,1,-1,0,0,0,-1,1,0,1,0,0,0,0
+segment=wooden/scrollbar/border.png,-1,1,0,0,0,0,1,1,0,1,0,0,1,0
+segment=wooden/scrollbar/border.png,1,1,0,0,0,0,1,1,1,1,0,0,0,0
+

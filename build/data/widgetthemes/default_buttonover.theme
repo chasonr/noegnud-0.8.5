@@ -1,0 +1,10 @@
+segment=wooden/buttonover/tl.png,-1,-1,-1,-1,0,0,-1,-1,0,0,0,0,0,0
+segment=wooden/buttonover/t.png,-1,-1,0,-1,0,0,1,-1,0,0,0,0,1,0
+segment=wooden/buttonover/tr.png,1,-1,0,-1,0,0,1,-1,1,0,0,0,0,0
+segment=wooden/buttonover/l.png,-1,-1,-1,0,0,0,-1,1,0,0,0,0,0,1
+segment=wooden/buttonover/m.png,-1,-1,0,0,0,0,1,1,0,0,0,0,1,1
+segment=wooden/buttonover/r.png,1,-1,0,0,0,0,1,1,1,0,0,0,0,1
+segment=wooden/buttonover/bl.png,-1,1,-1,0,0,0,-1,1,0,1,0,0,0,0
+segment=wooden/buttonover/b.png,-1,1,0,0,0,0,1,1,0,1,0,0,1,0
+segment=wooden/buttonover/br.png,1,1,0,0,0,0,1,1,1,1,0,0,0,0
+

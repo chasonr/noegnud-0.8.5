@@ -1,0 +1,75 @@
+noegnud_lower
+-------------
+Usage: noegnud_lower <any text>
+
+this is a simple utility that was used by me to unsure that a selection of filenames where all lowercase.
+takes a single parameter, makes it lowercase and prints it back to stdout.
+
+
+
+noegnud_fnt2tga
+---------------
+Usage: noegnud_fnt2tga <infile.fnt> <outfile.tga>
+
+this utility converts an oldstyle dos/bios font like "foo.fnt" into a 16x16 character grid graphical font.
+this will be rewritten soon as noegnud_fnt2png.
+
+
+
+noegnud_tiles_split
+-------------------
+Usage: noegnud_tiles_split <referencefile> <tileset.png> <width> <height> [destination]
+
+this utilility takes a "normal" nethack/variant graphical tileset (png) and splits it up into noegnud format.
+
+parameters:
+    <referencefile>:
+	this is the variant-referance file for the varient this tileset origionates from.
+	you should find it in noegnud_data/variant_references/foo.txt.
+    <tileset.png>:
+	this is the tileset you wish to convert.
+    <width>:
+	this is the physical width (in pixels ) of each tile.
+    <height>:
+	this is the physical height (in pixels) of each tile.
+    [destination]:   (optional parameter)
+	a destination directory name for the many smaller tiles this conversion process creates.
+	it's highly recommended that you first create an empty directory, and use this as a parameter.
+	if you do not specify a parameter, then a new directory will be created for you, in the
+	format " noegnudtileset_<tileset.png> " (using the second parameter you passed).
+
+
+
+noegnud_tiles_join
+------------------
+Usage: noegnud_tiles_join <referencefile> <tilesetdir> <columns> <joinedimagename.png> [imagemap.html]
+    or noegnud_tiles_join <referencefile> test
+
+this utility takes a noegnud format tileset, and rebuilds it into an "old-style" format, as a single image.
+
+parameters:
+    <referencefile>:
+	this is the variant-referance file for the varient you wish to build a set for.
+	you should find it in noegnud_data/variant_references/foo.txt.
+    <tilesetdir>:
+	this is the location of the noegnud-tileset.  this is the same directory as the " [destination] "
+	parameter for the utility noegnud_tiles_split.
+    <columns>:
+	how many columns wide (in tiles) would you like the resultant build.
+    <joinedimagename.png>:
+	this is the name for the resulting single image tileset.
+    [imagemap.html]: (optional parameter)
+	if you would like a web reference built for this tileset then supply a web page name here.
+	please note, once created, this consists of 3 files:
+	    [imagemap.html]
+	    <joinedimagename.png>
+	    imagemap_back.png   (this graphic should be found in the same directory as these utilities).
+or:
+    <referencefile>:
+	this is the variant-referance file for the varient you wish to build a set for.
+	you should find it in noegnud_data/variant_references/foo.txt.
+    test:
+	this is literally the word "test", when passed as the 2nd parameter, this utility will ouput a result
+	of builds with various dimensions/columns, and allow you to best select which <columns> parameter to pass.
+
+
